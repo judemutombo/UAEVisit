@@ -1,0 +1,27 @@
+[
+    {
+        "title" : "Explore Many destinations",
+        "body"  : "The UAE is full of beautiful places waiting to be explored.From the iconic skyscrapers of Dubai to the cultural treasures of Sharjah and the desert landscapes of Abu Dhabi, every emirate offers a unique adventure. Whether you're seeking luxury, tradition, or nature, there's a destination for every traveler.",
+        "side" : "Right"
+    },
+    {
+        "title" : "Discover the Real UAE",
+        "body"  : "Go beyond the brochures. Experience the local culture, taste authentic Emirati cuisine, walk through historic souks, and connect with the vibrant spirit of the people. Our trips are designed to show you the soul of the UAE—not just the surface.",
+        "side" : "Left"
+    },
+    {
+        "title" : "Why Travel With Us",
+        "body" : "We’re not just a travel agency—we’re your local guide. With deep roots in the UAE, we know the hidden gems and exclusive experiences that most tourists miss. Our goal is to help you live a real experience in the UAE, tailored to your interests and passions.",
+        "side" : "Right"
+    },
+    {
+        "title" : "Business Meets Travel",
+        "body" : "Who says business can’t feel like a holiday? Combine your work trip with unforgettable experiences across the UAE. Relax in luxury, explore the desert, or take a quick beach break—your itinerary can balance both productivity and pleasure.",
+        "side" : "Right"
+    },
+    {
+        "title" : "Do Business, the UAE Way",
+        "body" : "The UAE is a gateway to global trade. Whether you’re visiting to attend exhibitions, source wholesale goods, or explore new markets, we’ve got you covered. From helping you navigate major trading zones like Dragon Mart and Dubai Expo City, to organizing factory visits, we make your business trip seamless and productive.",
+        "side" : "Top"
+    }
+]

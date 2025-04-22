@@ -1,3 +1,32 @@
-.circle{
-    left : calc(50% - 225px);
+.circle, .rotator{
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.down{
+    transform: rotate(180deg);
+}
+.rotator{
+    transition: transform 2s ease;
+}
+
+.panel{
+    height : calc(100vh - 56px);
+}
+
+.plateform{
+    border-radius: 50%;
+    width: 335px;
+    height: 335px;
+}
+
+.services .plateform, .contact .plateform, .service-card{
+    background-color: #57BEE6;
+}
+
+.sub-input input, .sub-input input:focus{
+    background-color: inherit;
+    outline: none;
+    border: none;
+    box-shadow: none;
 }

@@ -1,0 +1,17 @@
+[
+    {
+        "title" : "Visa Provider",
+        "body" : "Provide visa within 3 days,faster than everyone",
+        "image" : "Public/images/burj.png"
+    },
+    {
+        "title" : "tourism guidance",
+        "body" : "our experts who know every place of UAE willbe your guide, leading you everywhere you want.",
+        "image" : "Public/images/burj2.png"
+    },
+    {
+        "title" : "Hotel reservation",
+        "body" : "we provide hotel reservation for each class, at each price.",
+        "image" : "Public/images/burj.png"
+    }
+]
