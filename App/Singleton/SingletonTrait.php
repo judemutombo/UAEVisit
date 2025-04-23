@@ -2,7 +2,7 @@
 
 namespace App\Singleton;
 
-trait singletonTrait{
+trait SingletonTrait{
     
     protected static $instance = null;
 

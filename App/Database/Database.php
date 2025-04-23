@@ -2,7 +2,7 @@
 
 namespace App\Database;
 
-use App\Singleton\singletonTrait;
+use App\Singleton\SingletonTrait;
 use PDO;
 use PDOStatement;
 
@@ -16,15 +16,11 @@ abstract class Database{
 
     protected static $config;
 
-    use singletonTrait;
+    use SingletonTrait;
 
     protected function __construct()
     {
-<<<<<<< HEAD
         self::$config = require ROOT.DIRECTORY_SEPARATOR."App".DIRECTORY_SEPARATOR."Config".DIRECTORY_SEPARATOR."db.config.php";
-=======
-        self::$config = require ROOT.DIRECTORY_SEPARATOR."App".DIRECTORY_SEPARATOR."config".DIRECTORY_SEPARATOR."config.php";
->>>>>>> 4560585fe695ea924c0718d13354f60347ed4ace
 
         $this->host = self::$config["hostname"];
         $this->username = self::$config["username"];

@@ -4,7 +4,7 @@ namespace App\Singleton;
 
 use App\Database\Database;
 
-trait singletonDbTrait{
+trait SingletonDbTrait{
     
     protected static $instance = null;
 

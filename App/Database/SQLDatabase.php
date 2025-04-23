@@ -2,13 +2,13 @@
 
 namespace App\Database;
 
-use App\Singleton\singletonTrait;
+use App\Singleton\SingletonTrait;
 use Exception;
 use PDO;
 use PDOStatement;
 
 class SQLDatabase extends Database{
-    use singletonTrait;
+    use SingletonTrait;
 
     private function __construct(){
         parent::__construct();
