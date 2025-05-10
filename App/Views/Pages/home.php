@@ -12,7 +12,7 @@
         </nav>
     </div>
 </header>
-<div class="panel w-full bg-[#3D424A] relative text-white overflow-hidden">
+<div class="section panel w-full bg-[#3D424A] relative text-white overflow-hidden" id="panel">
     <div class="slogan w-1/2 h-[160px] absolute top-16 right-5 text-right text-4xl font-bold">  
         <p>
             Live a real experience </br>
@@ -55,29 +55,29 @@ foreach($sections as $section):
         "Bottom" => "plateform-wrapper w-full h-3/5 flex justify-center items-center"
     };
     ?>
-    <div class='<?="w-full flex ".$class ?>' >
-        <div class='<?=$child1Class?>'>
-            <div class="title w-full h-1/4 flex justify-center items-center  ">
-                <p class="text-3xl font-bold">
-                    <?= $section->title ?>
-                </p>
-            </div>
-            <div class="body w-full h-3/4 p-5">
-                <p class="text-2xl text-justify">
-                    <?= $section->body ?>
-                </p>
-            </div>
+<div class='<?="section w-full flex ".$class ?>' id=<?=$section->id?>>
+    <div class='<?=$child1Class?>'>
+        <div class="title w-full h-1/4 flex justify-center items-center  ">
+            <p class="text-3xl font-bold">
+                <?= $section->title ?>
+            </p>
         </div>
-        <div class='<?=$child2Class?>'>
-            <div class="plateform bg-[#FEAE49]">
-            </div>
+        <div class="body w-full h-3/4 p-5">
+            <p class="text-2xl text-justify">
+                <?= $section->body ?>
+            </p>
         </div>
     </div>
+    <div class='<?=$child2Class?>'>
+        <div class="plateform bg-[#FEAE49]">
+        </div>
+    </div>
+</div>
     <?php
 endforeach;
 ?>
 
-<div class="services w-full flex h-[550px] pt-5">
+<div class="section services w-full flex h-[550px] pt-5" id="services">
     <div class='plateform-wrapper h-full w-1/2 flex justify-center items-center'>
         <div class="plateform ">
         </div>
@@ -112,7 +112,7 @@ endforeach;
         </div>
     </div>
 </div>
-<div class="contact w-full flex  pt-5 bg-[#F6F2F2]">
+<div class="section contact w-full flex  pt-5 bg-[#F6F2F2]" id="contact">
     <div class='plateform-wrapper  w-1/2 flex justify-center items-center min-h-max'>
         <div class="plateform ">
         </div>
@@ -164,6 +164,7 @@ endforeach;
     </div>
 </div>
 
+<div id="container3D"></div>
 <footer class="w-full h-[150px] bg-black text-white">
     <div class="w-full flex h-2/3">
         <div class="w-1/3 h-full flex items-center p-5">
