@@ -1,31 +1,37 @@
-<header class="w-full h-[56px] bg-[#3D424A] flex  px-5  text-white relative">
+<header class="header w-full h-[56px] bg-[#3D424A] flex  px-5  text-white ">
     <div class="title w-1/2  h-full flex items-center">
         <p class="text-xl">UAEVisit</p>
     </div>
     <div class="navLink w-1/2 h-full flex items-center justify-end"> 
         <nav>
-            <ul class="flex space-x-4">
-                <li>Home</li>
-                <li>Services</li>
-                <li>Contact</li>
+            <ul class="flex space-x-6">
+                <li><a href="#panel" class="links"> Home</a></li>
+                <li><a href="#services" class="links">Services</a></li>
+                <li><a href="#contact" class="links">Contact</a></li>
             </ul>
         </nav>
     </div>
 </header>
-<div class="section panel w-full bg-[#3D424A] relative text-white overflow-hidden" id="panel">
-    <div class="slogan w-1/2 h-[160px] absolute top-16 right-5 text-right text-4xl font-bold">  
-        <p>
-            Live a real experience </br>
-            in United Arab Emirats
-        </p>
+<div class="section panel w-full mt-[56px] relative text-black overflow-hidden" id="panel">
+    <div class="absolute w-full h-full top-0 left-0 z-10">
+        <div class="slogan w-1/2 h-[160px] absolute top-16 right-5 text-right text-4xl font-bold">  
+            <p>
+                Live a real experience </br>
+                in United Arab Emirats
+            </p>
+        </div>
+        <div class="z-5 circle rounded-[50%]  w-[450px] h-[450px] bg-[#FEAE49] absolute bottom-[-225px]">
+        </div>
+        <div class="rotator w-[450px] h-[900px] z-10  absolute bottom-[-450px]">
+            <img class="object-fill w-full h-1/2 " src="Public/images/burj2.png" alt="burj" width="100%" height="100%">
+            <img class="down object-fill w-full h-1/2 " src="Public/images/burj.png" alt="burj" width="100%" height="100%">
+        </div>
     </div>
-    <div class="z-5 circle rounded-[50%]  w-[450px] h-[450px] bg-[#FEAE49] absolute bottom-[-225px]">
-    </div>
-    <div class="rotator w-[450px] h-[900px] z-10  absolute bottom-[-450px]">
-        <img class="object-fill w-full h-1/2 " src="Public/images/burj2.png" alt="burj" width="100%" height="100%">
-        <img class="down object-fill w-full h-1/2 " src="Public/images/burj.png" alt="burj" width="100%" height="100%">
+    <div class="airport absolute w-full h-full top-0 left-0" id="airport">
+
     </div>
 </div>
+
 <?php
 $sections = file_get_contents(ROOT.DIRECTORY_SEPARATOR.'App'.DIRECTORY_SEPARATOR.'data'.DIRECTORY_SEPARATOR.'section.json');
 $sections = json_decode($sections);

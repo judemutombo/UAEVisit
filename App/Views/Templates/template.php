@@ -31,6 +31,7 @@ else{
 <body class="overflow-x-hidden">
     <?= $content;?>
     <script src="Public/JS/index.js"  defer></script> 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/dat.gui@0.7.9/build/dat.gui.min.js"></script>
     <script src="Public/JS/3d.js" type="module" defer></script> 
 </body>

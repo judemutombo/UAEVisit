@@ -6,3 +6,7 @@ const child = document.querySelector('.rotator');
     rotation += 180;
     child.style.transform = `translateX(-50%) rotate(${rotation}deg)`;
   }, 5000);
+
+
+
+
